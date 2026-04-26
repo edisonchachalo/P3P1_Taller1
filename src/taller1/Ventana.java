@@ -48,7 +48,7 @@ public class Ventana {
                     }
 
                     if (!cedula.matches("\\d{1,10}")) {
-                        textArea1.setText("Error: La cédula debe contener solo números positivos (1 a 10 dígitos)");
+                        textArea1.setText("Error: Formato de cédula incorrecto.\nIngrese número de cédula válido (1-10 digitos)");
                         return;
                     }
 
