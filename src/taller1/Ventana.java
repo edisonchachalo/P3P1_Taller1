@@ -53,7 +53,7 @@ public class Ventana {
                     }
 
                     if (cantidad <= 0 || cantidad > max_boletos_transaccion) {
-                        textArea1.setText("Error: La cantidad de boletos debe estar entre 1 y 5 boletos");
+                        textArea1.setText("Error: La cantidad de boletos debe estar entre 1 y 5 boletos.\nRecuerde que solo puede comprar máximo 5 boletos");
                         return;
                     }
 
