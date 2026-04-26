@@ -112,7 +112,7 @@ public class Ventana {
 
     public void actualizarLabels() {
         lblVendidosQG.setText("Vendidos Quito - Guayaquil: " + colaQuitoGuayaquil.totalBoletosVendidos());
-        lblVendidosQC.setText("Vendidos Quito - Cuenta: " + colaQuitoCuenca.totalBoletosVendidos());
+        lblVendidosQC.setText("Vendidos Quito - Cuenca: " + colaQuitoCuenca.totalBoletosVendidos());
         lblVendidosQL.setText("Vendidos Quito - Loja: " + colaQuitoLoja.totalBoletosVendidos());
 
         lblDisponiblesQG.setText("Disponibles Quito - Guayaquil: " + (max_asientos - colaQuitoGuayaquil.totalBoletosVendidos()));
