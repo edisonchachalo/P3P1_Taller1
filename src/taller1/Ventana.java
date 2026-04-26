@@ -47,6 +47,11 @@ public class Ventana {
                         return;
                     }
 
+                    if (!cedula.matches("\\d{1,10}")) {
+                        textArea1.setText("Error: La cédula debe contener solo números positivos (1 a 10 dígitos)");
+                        return;
+                    }
+
                     if (cantidad <= 0 || cantidad > max_boletos_transaccion) {
                         textArea1.setText("Error: La cantidad de boletos debe estar entre 1 y 5 boletos");
                         return;
