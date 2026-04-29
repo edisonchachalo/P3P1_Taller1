@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="taller1.Ventana">
-  <grid id="27dc6" binding="Ventana" layout-manager="GridLayoutManager" row-count="19" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="Ventana" layout-manager="GridLayoutManager" row-count="18" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="531" height="550"/>
+      <xy x="20" y="20" width="653" height="550"/>
     </constraints>
     <properties/>
     <border type="none" title="UDLA RUTAS" title-justification="2" title-position="1">
@@ -53,7 +53,7 @@
       </component>
       <component id="c28fc" class="javax.swing.JButton" binding="btnComprar">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Comprar"/>
@@ -61,7 +61,7 @@
       </component>
       <component id="57c7d" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
         <constraints>
-          <grid row="5" column="0" row-span="7" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="6" column="0" row-span="7" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
@@ -108,58 +108,137 @@
       </component>
       <component id="a3e53" class="javax.swing.JLabel" binding="lblVendidosQG">
         <constraints>
-          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Vendidos Quito - Guayaquil: "/>
+          <text value="Quito - Guayaquil: "/>
         </properties>
       </component>
       <component id="87916" class="javax.swing.JLabel" binding="lblVendidosQC">
         <constraints>
-          <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Vendidos Quito - Cuenca: "/>
+          <text value="Quito - Cuenca: "/>
         </properties>
       </component>
       <component id="d625f" class="javax.swing.JLabel" binding="lblVendidosQL">
         <constraints>
-          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Vendidos Quito - Loja: "/>
-        </properties>
-      </component>
-      <component id="e3096" class="javax.swing.JLabel" binding="lblDisponiblesQG">
-        <constraints>
-          <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Disponibles Quito - Guayaquil: "/>
-        </properties>
-      </component>
-      <component id="2553e" class="javax.swing.JLabel" binding="lblDisponiblesQC">
-        <constraints>
           <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Disponibles Quito - Cuenca: "/>
-        </properties>
-      </component>
-      <component id="fb1" class="javax.swing.JLabel" binding="lblDisponiblesQL">
-        <constraints>
-          <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Disponibles Quito - Loja: "/>
+          <text value="Quito - Loja: "/>
         </properties>
       </component>
       <component id="c14a5" class="javax.swing.JLabel" binding="lblMontoTotal">
         <constraints>
-          <grid row="18" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="17" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Monto Total Recaudado: "/>
+        </properties>
+      </component>
+      <component id="e3096" class="javax.swing.JLabel" binding="lblDisponiblesQG">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quito - Guayaquil: "/>
+        </properties>
+      </component>
+      <component id="2553e" class="javax.swing.JLabel" binding="lblDisponiblesQC">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quito - Cuenca: "/>
+        </properties>
+      </component>
+      <component id="fb1" class="javax.swing.JLabel" binding="lblDisponiblesQL">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quito - Loja: "/>
+        </properties>
+      </component>
+      <component id="ff88f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="VENDIDOS"/>
+        </properties>
+      </component>
+      <component id="7fb91" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="DISPONIBLES"/>
+        </properties>
+      </component>
+      <component id="fe777" class="javax.swing.JButton" binding="btnOrdenAbordaje">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar Orden Abordaje"/>
+        </properties>
+      </component>
+      <component id="ac49d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Prioridad"/>
+        </properties>
+      </component>
+      <component id="ffa50" class="javax.swing.JComboBox" binding="cmbPrioridad">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+          </model>
+        </properties>
+      </component>
+      <component id="3ada5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3. Tercera Edad - 2. Embarazadas - 1. Normal"/>
+        </properties>
+      </component>
+      <component id="ed4c0" class="javax.swing.JButton" binding="btnMostrarTodos">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar Todos los Boletos"/>
+        </properties>
+      </component>
+      <component id="5ad6a" class="javax.swing.JButton" binding="btnUltimoRegistroUser">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar último registro"/>
+        </properties>
+      </component>
+      <component id="7fd08" class="javax.swing.JButton" binding="btnPrimeroEnAbordar">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar primero en abordar"/>
         </properties>
       </component>
     </children>
